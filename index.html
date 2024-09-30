@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudi Pradnyana - Home</title>
+    <style>
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px; 
+            justify-items: center; 
+            margin-bottom: 40px; 
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+        }
+
+        h1, h2, p {
+            text-align: center;
+        }
+
+        figcaption {
+            text-align: center;
+        }
+
+        
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        
+        video {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hello! My name is Rudi Pradnyana. I was born and raised in Bali and spent 1.5 years living in Adelaide. I'm passionate about music, filmmaking, and cinematography. I also have a YouTube channel focusing on self-improvement, presented in a cinematic vlog style.</p>
+
+    <h2>Latest Project</h2>
+    <p>Here are some of my recent works:</p>
+
+    
+    <div class="image-grid">
+        <figure>
+            <img src="images/merusak sma.png" alt="Project 1">
+            <figcaption>This is one of my hit videos on YouTube, it got 35k viewers in just a month</figcaption>
+        </figure>
+        <figure>
+            <img src="images/kecanduan sosmed.png" alt="Project 2">
+            <figcaption>It's my experiment video to stop wasting time on social media</figcaption>
+        </figure>
+        <figure>
+            <img src="images/paracan bikin .png" alt="Project 3">
+            <figcaption>Don't judge anything by its cover, watch the video first</figcaption>
+        </figure>
+        <figure>
+            <img src="images/hal yang merusak hidup.png" alt="Project 4">
+            <figcaption>If you don't want to waste your life, this video is for you</figcaption>
+        </figure>
+        <figure>
+            <img src="images/ke mana aja.png" alt="Project 5">
+            <figcaption>Finally, I made a video again after taking a long vacation</figcaption>
+        </figure>
+    </div>
+
+    <h2>Recent Music Video</h2>
+    
+    <video
+    width="400" height="400"
+    poster
+    autoplay
+    controls
+    loop
+>
+    <source src="assets/mv fix.mp4" type="video/mp4">
+</video>
+    <figcaption>My latest music video, I'm proud because it came out from my hand</figcaption>
+
+    <nav>
+        <a href="home.html">Home</a> |
+        <a href="about portfolio.html">About</a> |
+        <a href="news portfolio.html">News</a>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudi Pradnyana - About</title>
+    <style>
+        /* Menempatkan seluruh konten di tengah secara vertikal dan horizontal */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2, p {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        figcaption {
+            text-align: center;
+        }
+
+        /* Styling untuk navigasi */
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+       
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+            grid-gap: 20px; /* Jarak antar gambar */
+            width: 80%; /* Mengatur lebar grid */
+            margin: 20px 0;
+        }
+
+        
+        @media (max-width: 768px) {
+            .image-grid {
+                grid-template-columns: 1fr; /* 1 kolom jika layar kecil */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>Hi, I’m Rudi Pradnyana, a filmmaker, photographer, and YouTuber originally from Bali. I spent 1.5 years living in Adelaide, which greatly influenced my passion for storytelling. With a background in both self-taught and formal learning, I’ve been creating cinematic vlogs focused on self-improvement on YouTube, which has gained significant recognition. My works aim to inspire and empower individuals to grow through engaging visuals and thought-provoking content.</p>
+    <br>
+    <hr>
+    <h2>How I live my life, and captured it into a vlog</h2>
+    <video
+    width="550" height="550"
+    poster
+    autoplay
+    controls
+    loop
+>
+    <source src="assets/vlog fix.mp4" type="video/mp4">
+</video>
+<br>
+<hr>
+    <p>I love to travel wherever I want, and I had gone to many beautiful places.</p>
+    <h3>And I love to capture all those moments.</h3>
+
+   
+    <div class="image-grid">
+        <img src="images/jepang 1.JPG" alt="Rudi Pradnyana">
+        <img src="images/60F73519-1EBA-4581-8F50-3A19106B3635_1_201_a.jpeg" alt="Rudi Pradnyana">
+        <img src="images/jepang 2.JPG" alt="Rudi Pradnyana">
+        <img src="images/jepang 3.JPG" alt="Rudi Pradnyana">
+    </div>
+   <h4>Besides traveling, I also spend a lot of my time pursuing my dream of becoming a film director. </h4>
+   <p> go to NEWS page if you're interested</p>
+
+    <nav>
+        <a href="home.html">Home</a> |
+        <a href="news portfolio.html">News</a>
+    </nav>
+</body>
+</html>

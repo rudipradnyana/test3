@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudi Pradnyana - news</title>
+    <style>
+        /* Menempatkan seluruh konten di tengah secara vertikal dan horizontal */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Mengatur layout grid untuk gambar */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px; /* Jarak antar gambar */
+            justify-items: center; /* Pusatkan gambar di dalam kolom */
+            margin-bottom: 40px; /* Jarak dari elemen lain */
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+        }
+
+        h1, h2, p {
+            text-align: center;
+        }
+
+        figcaption {
+            text-align: center;
+        }
+
+        /* Styling untuk navigasi */
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling untuk video */
+        video {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>here's some of my work and achivements</h1>
+    <p>Currently, I live in Jakarta for my studies, and I also work as a freelance video editor and creative director for several production houses in Jakarta. My cousin and I also run a gig on Fiverr, which is now based and managed in Adelaide, Australia.</p>
+    <h2>Achivements, Works And Behind The Scenes</h2>
+
+
+    <!-- Grid untuk gambar -->
+    <div class="image-grid">
+        <figure>
+            <img src="images/juara.jpeg" alt="Project 1">
+            <figcaption>I recieved an award from Bali's goverment</figcaption>
+        </figure>
+        <figure>
+            <img src="images/bts.JPG" alt="Project 2">
+            <figcaption> Behind the scene on the filming location</figcaption>
+        </figure>
+        <figure>
+            <img src="images/editing timeling.jpg" alt="Project 3">
+            <figcaption>this is my editing timeline, i also take a part on post production</figcaption>
+        </figure>
+        <figure>
+            <img src="images/SCR-20240925-oamm.jpeg" alt="Project 4">
+            <figcaption>the screenplay that i wrote</figcaption>
+        </figure>
+        <figure>
+            <img src="images/poster.JPG" alt="Project 5">
+            <figcaption>And the latest film that i've created and directed by my friend, the film won the 1st place on jogja film competition</figcaption>
+        </figure>
+    </div>
+
+    <h2>Not just on creative industries, but I also participate in several cultural exchange programs and United Nations conferences</h2>
+    <!-- Tempat untuk video -->
+    <video
+    width="400" height="400"
+    poster
+    autoplay
+    controls
+    loop
+>
+    <source src="assets/afm fix.mp4" type="video/mp4"></video><figcaption> After movie of Asia Youth International Model United Nations</figcaption>
+<br>
+<hr>
+    <div class="image-grid">
+
+    <figure>
+        <img src="images/SCR-20240925-pfny.jpeg" alt="Project 1" width="500">
+        <figcaption>damnn i was selected as a delegate from indonesia on Asia Youth International Model United Nations</figcaption>
+    </figure>
+    <figure>
+        <img src="images/afmamplusaustralia2024-twibbon-babf82b7-f9e9-4a3b-8740-a93daf3ff3f6.jpg" alt="Project 2">
+        <figcaption> i also take a part on AFMAM plus Australia which was held by Asean foundation early this december</figcaption>
+    </figure>
+    <figure>
+</div>
+    <nav>
+        <a href="home.html">Home</a> |
+        <a href="about portfolio.html">About</a> |
+        <a href="news portfolio.html">News</a>
+    </nav>
+</body>
+</html>
